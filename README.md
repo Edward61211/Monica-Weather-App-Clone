@@ -27,6 +27,3 @@ A simple and intuitive weather application built with React that allows users to
 - SweetAlert2 for user notifications
 - OpenWeatherMap API for weather data
 
-## Installation
-
-1. Clone the repository:
