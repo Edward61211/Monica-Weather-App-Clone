@@ -111,7 +111,7 @@ function App() {
         icon: "error",
         title: "Can't find it",
         text: "Please try a valid city (like London, New York, Taipei, etc.)",
-        footer: '<a href="https://www.cat-gpt.com/chat/meow">Click here 🧝🏻‍♀️</a>',
+        footer: "Portfolio demo: no personal information is collected.",
         width: 600,
         padding: "1em",
         color: "#716add",
@@ -129,6 +129,7 @@ function App() {
   return (
     <div className="container">
       <span className="appLabel">Monica Weather App</span>
+      <span>Portfolio demo. Enter only a city name.</span>
       {city && weather ? (
         <>
           <WeatherComponent weather={weather} />
